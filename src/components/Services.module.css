@@ -1,0 +1,51 @@
+.servicesSection {
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
+.servicesSection h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.servicesSection p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.servicesContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.serviceCard {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: left;
+
+    &:hover {
+        border-top: 4px solid #f38b00;
+        transform: translateY(-10px);
+        box-shadow: 0 14px 34px 0 rgba(0, 0, 0, .2);
+        transition: all .1s;
+    }
+}
+
+.serviceCard h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.serviceCard p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}

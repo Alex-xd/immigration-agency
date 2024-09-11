@@ -1,0 +1,47 @@
+.successSection {
+    text-align: center;
+    padding: 4rem;
+  }
+  
+  .circle {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #f9f8f6;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .circle h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .stat p {
+    color: #666;
+    margin-top: 0.5rem;
+  }

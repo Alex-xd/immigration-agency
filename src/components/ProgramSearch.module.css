@@ -1,0 +1,66 @@
+/* ProgramSearch.module.css */
+.programSearchSection {
+    background-color: #f9f8f6;
+    padding: 3rem;
+    text-align: center;
+}
+
+.programSearchHeader h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.programSearchHeader p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.dropdown {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.programList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.programCard {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-left: 20px;
+}
+
+.programCard:first-child {
+    margin-left: 0;
+}
+
+.programCard h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.programCard p {
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.programCard img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
